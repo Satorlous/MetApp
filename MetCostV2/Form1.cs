@@ -15,8 +15,7 @@ namespace MetCostV2
     public partial class Form1 : MaterialSkin.Controls.MaterialForm
     {
         public bool isSaved = true;
-        private const string fileName = "indications.txt";
-        private string path = Path.GetFullPath(fileName);
+        private string path = @"..\..\indications.txt";
         public List<Indication> indications;
         public Form1()
         {
