@@ -83,7 +83,7 @@ namespace MetCostV2
             FillGrid();
             isSaved = false;
         }
-
+        
         private void CalcButton_Click(object sender, EventArgs e)
         {
             WriteFile();
